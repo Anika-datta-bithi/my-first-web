@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arima', cursive;
+    margin: 0px;
+}
+
+span {
+    color: goldenrod;
+}
+
+section {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+
+.talk {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+    background-image: url(images/shapes/Group\ 8450.png);
+}
+
+.banner {
+    background-image: url(images/shapes/Group\ 8450.png);
+    background-repeat: no-repeat;
+}
