@@ -1,23 +1,36 @@
 body {
     font-family: 'Arima', cursive;
     margin: 0px;
+
+}
+
+.area {
+    background-image: url(images/shapes/Group\ 8449.png);
 }
 
 span {
     color: goldenrod;
 }
 
-section {
+.flex {
     display: flex;
     padding: 10px;
-    margin: 20px;
+    margin-bottom: 120px;
 }
+
+.flex1 {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 120px;
+}
+
 
 .talk {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 5px;
+    color: white;
 }
 
 .half-width {
@@ -29,4 +42,26 @@ section {
 .banner {
     background-image: url(images/shapes/Group\ 8450.png);
     background-repeat: no-repeat;
+}
+
+.item {
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+
+
+#one {
+    border-left: 7px solid tomato;
+}
+
+#two {
+    border-left: 7px solid blue;
+}
+
+#three {
+    border-left: 7px solid green;
 }
